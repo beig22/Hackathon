@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 id="msg">{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Hackathon',
   data () {
     return {
       msg: 'Welcome to the RAD Hackathon'
@@ -30,5 +30,9 @@ li {
 }
 a {
   color: #42b983;
+}
+
+#msg {
+  font-family: fantasy
 }
 </style>
