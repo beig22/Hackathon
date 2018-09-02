@@ -9,7 +9,7 @@ export default {
   name: 'Hackathon',
   data () {
     return {
-      msg: 'Welcome to the RAD Hackathon'
+      msg: 'Welcome to the RADHackathon'
     }
   }
 }
@@ -33,6 +33,6 @@ a {
 }
 
 #msg {
-  font-family: fantasy
+  font-family: algerian;
 }
 </style>
